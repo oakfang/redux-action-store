@@ -14,7 +14,7 @@ class ActionStore {
 
     static fromJson(path, reducer) {
         try {
-            return new ActionStore(reducer, require(path).history);
+            return new ActionStore(reducer, JSON.parse(fs.readFileSync(path, {encoding: 'utf8'})).history);
         } catch (err) {
             return new ActionStore(reducer);
         }
