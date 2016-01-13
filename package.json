@@ -1,0 +1,22 @@
+{
+  "name": "redux-action-store",
+  "version": "1.0.0",
+  "description": "Save and load actions to persist state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakfang/redux-action-store.git"
+  },
+  "author": "Alon Niv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakfang/redux-action-store/issues"
+  },
+  "homepage": "https://github.com/oakfang/redux-action-store#readme",
+  "dependencies": {
+    "redux": "^3.0.5"
+  }
+}
